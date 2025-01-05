@@ -44,6 +44,7 @@ public class TangentMethod {
         double epsilon = 1e-6; // Точность
 
         double root = tangentMethod(x0, epsilon);
+        //если хочешь больше цифр после запятой, то цифру 6 измени на любую понравившуюся
         System.out.printf("Найденный корень: %.6f%n", root);
     }
 }
